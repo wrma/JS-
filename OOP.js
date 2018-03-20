@@ -2,7 +2,7 @@
 * @Author: wrma
 * @Date:   2018-03-17 09:56:51
 * @Last Modified by:   wrma
-* @Last Modified time: 2018-03-17 10:01:54
+* @Last Modified time: 2018-03-20 22:27:45
 */
 
 /* ********************
@@ -47,6 +47,14 @@ console.log(o.age); //22
 /* ********************
         创建对象
  ********************* */
+ //对象字面量
+ var a = {
+    name : 'wrma',
+    age : '20'
+ }
+ /*
+缺点：当我们需要创建100个这样的对象的时候就要重复书写这样的对象字面量100次，十分不容易
+ */
 
 //工厂模式
 function createPerson(name,age) {
@@ -236,7 +244,8 @@ Parent.prototype.sayName = function () {
     console.log(this.name);
 }
 Child.prototype = new Parent();
-Child.prototype.constructor = Child; //修正constructor的指向
+Child.prototype.constructor = Child;
+
 Child.prototype.sayAge = function () {
     console.log(this.age);
 }
@@ -251,3 +260,56 @@ console.log(child.like); //['apple','banana']
 child.like.push('pear');
 console.log(child.like); //['apple','banana','pear']
 console.log(child2.like); //['apple','banana']
+/*
+缺点：我们在利用 Child.prototype = new Parent();这句的时候其实又实例化了一次 Parent，但是实际上，这样的实例化是并不需要的
+    因为在Parent.call(this,name);的时候,父类 constructor里面的属性就已经被绑定到 Child里面了，不需要再实例化绑定一次
+*/
+
+
+
+//组合继承的优化1
+function Parent(name) {
+    this.name = name;
+    this.like = ['apple','banana'];
+}
+function Child(name,age) {
+    Parent.call(this,name);
+    this.age = age;
+}
+Parent.prototype.sayName = function () {
+    console.log(this.name);
+}
+Child.prototype = Parent.prototype; //我们这里直接将 Child.prototype指向 Parent.prototype,可以避免Parent的这一次实例化
+Child.prototype.constructor = Child; //修正constructor的指向
+Child.prototype.sayAge = function () {
+    console.log(this.age);
+}
+var child = new Child('wrma',20);
+Child.prototype.constructor === Parent //true
+/*
+缺点：Child.prototype.constructor === Child //true
+    Parent.prototype.constructor === Child //true;
+    这里我们在修正constructor指向的时候由于Child.prototype = Parent.prototype;
+    所以 Parent的构造函数也会指向 Child
+*/
+
+
+//组合继承的优化2
+function Parent(name) {
+    this.name = name;
+    this.like = ['apple','banana'];
+}
+function Child(name,age) {
+    Parent.call(this,name);
+    this.age = age;
+}
+Parent.prototype.sayName = function () {
+    console.log(this.name);
+}
+Child.prototype = Object.create(Parent.prototype);
+Child.prototype.constructor = Child;
+
+Child.prototype.sayAge = function () {
+    console.log(this.age);
+}
+var child = new Child('wrma',20);
