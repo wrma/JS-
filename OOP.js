@@ -2,7 +2,7 @@
 * @Author: wrma
 * @Date:   2018-03-17 09:56:51
 * @Last Modified by:   wrma
-* @Last Modified time: 2018-03-20 22:27:45
+* @Last Modified time: 2018-05-10 09:41:44
 */
 
 /* ********************
@@ -205,7 +205,7 @@ console.log(child2.like); //['apple','banana','pear']
 /*
 缺点: 1.由于原型链上的属性和方法都是共享的，当属性值为引用类型值时问题就出现了
      2.在创建子类实例时，不能向父类的构造函数中传递参数
- */
+*/
 
 
 //构造函数法实现继承
@@ -237,7 +237,7 @@ function Parent(name) {
     this.like = ['apple','banana'];
 }
 function Child(name,age) {
-    Parent.call(this,name);
+    Parent.call(this,name); //像es6里面的super()
     this.age = age;
 }
 Parent.prototype.sayName = function () {
