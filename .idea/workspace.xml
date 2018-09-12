@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="d73af9c4-0d98-4493-bb27-4e77d5133996" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/es6/async.js" afterPath="$PROJECT_DIR$/es6/async.js" />
       <change beforePath="$PROJECT_DIR$/es6/promise.js" afterPath="$PROJECT_DIR$/es6/promise.js" />
     </list>
+=======
+    <list default="true" id="d73af9c4-0d98-4493-bb27-4e77d5133996" name="Default" comment="" />
+>>>>>>> 002f6077cc4eba015f10207eccfa2d464306e9a9
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -18,31 +22,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+<<<<<<< HEAD
       <file leaf-file-name="函数扩展.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/es6/函数扩展.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1896">
               <caret line="79" column="7" lean-forward="false" selection-start-line="79" selection-start-column="7" selection-end-line="79" selection-end-column="7" />
               <folding />
+=======
+      <file leaf-file-name="数组去重.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Array/数组去重.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="572">
+              <caret line="26" column="28" lean-forward="true" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+>>>>>>> 002f6077cc4eba015f10207eccfa2d464306e9a9
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="async.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/es6/async.js">
+      <file leaf-file-name="数组扁平化.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Array/数组扁平化.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="4152">
               <caret line="177" column="12" lean-forward="false" selection-start-line="177" selection-start-column="12" selection-end-line="177" selection-end-column="12" />
               <folding />
+=======
+            <state relative-caret-position="354">
+              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="解构赋值.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/es6/解构赋值.js">
+      <file leaf-file-name="深浅拷贝.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/深浅拷贝.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1920">
-              <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="85" selection-end-column="15" />
+            <state relative-caret-position="713">
+              <caret line="70" column="39" selection-start-line="70" selection-start-column="39" selection-end-line="70" selection-end-column="39" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -50,12 +66,47 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="async.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/es6/async.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2046">
+              <caret line="97" selection-start-line="97" selection-end-line="97" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+>>>>>>> 002f6077cc4eba015f10207eccfa2d464306e9a9
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="解构赋值.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/es6/解构赋值.js">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="1920">
+              <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="85" selection-end-column="15" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+=======
+            <state relative-caret-position="5742">
+              <caret line="261" column="34" selection-start-line="261" selection-start-column="34" selection-end-line="261" selection-end-column="34" />
+>>>>>>> 002f6077cc4eba015f10207eccfa2d464306e9a9
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="对象扩展.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/es6/对象扩展.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="523">
               <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
+=======
+            <state>
+              <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+>>>>>>> 002f6077cc4eba015f10207eccfa2d464306e9a9
             </state>
           </provider>
         </entry>
@@ -96,9 +147,15 @@
         <option value="$PROJECT_DIR$/es6/解构赋值.js" />
         <option value="$PROJECT_DIR$/es6/函数扩展.js" />
         <option value="$PROJECT_DIR$/es6/async.js" />
+<<<<<<< HEAD
         <option value="$USER_HOME$/Desktop/test.html" />
         <option value="$PROJECT_DIR$/es6/promise.js" />
         <option value="$PROJECT_DIR$/es6/对象扩展.js" />
+=======
+        <option value="$PROJECT_DIR$/Array/数组去重.js" />
+        <option value="$PROJECT_DIR$/深浅拷贝.js" />
+        <option value="$PROJECT_DIR$/Array/数组扁平化.js" />
+>>>>>>> 002f6077cc4eba015f10207eccfa2d464306e9a9
       </list>
     </option>
   </component>
@@ -108,10 +165,19 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
     <option name="x" value="1131" />
     <option name="width" value="790" />
     <option name="height" value="1038" />
+=======
+    <option name="x" value="993" />
+    <option name="width" value="928" />
+    <option name="height" value="1160" />
+>>>>>>> 002f6077cc4eba015f10207eccfa2d464306e9a9
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -139,22 +205,15 @@
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="Scratches" />
       <pane id="Scope" />
+=======
+>>>>>>> 002f6077cc4eba015f10207eccfa2d464306e9a9
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,7 +224,11 @@
             <path>
               <item name="JS-notes" type="b2602c69:ProjectViewProjectNode" />
               <item name="JS-notes" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="es6" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="Array" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 002f6077cc4eba015f10207eccfa2d464306e9a9
             </path>
           </expand>
           <select />
@@ -174,12 +237,19 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+<<<<<<< HEAD
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../reference/redux" />
+=======
+>>>>>>> 002f6077cc4eba015f10207eccfa2d464306e9a9
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="SearchEverywhereHistoryKey" value="child&#9;null&#9;null&#10;index&#9;FILE&#9;file://D:/wrma/JS-notes/index.html" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -193,31 +263,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.async.js">
-    <configuration name="OOP.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="OOP.js" working-dir="$PROJECT_DIR$" />
+  <component name="RunManager" selected="Node.js.数组扁平化.js">
+    <configuration name="深浅拷贝.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="深浅拷贝.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="数组扁平化.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="数组扁平化.js" working-dir="$PROJECT_DIR$/Array" />
     <configuration name="ajax.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="ajax.js" working-dir="$PROJECT_DIR$" />
     <configuration name="array.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="array.js" working-dir="$PROJECT_DIR$/Array" />
     <configuration name="async.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="async.js" working-dir="$PROJECT_DIR$/es6" />
-    <configuration name="test.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="test.js" working-dir="$USER_HOME$/Desktop" />
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.OOP.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.test.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.array.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.ajax.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.async.js" />
+    <list>
+      <item itemvalue="Node.js.array.js" />
+      <item itemvalue="Node.js.ajax.js" />
+      <item itemvalue="Node.js.async.js" />
+      <item itemvalue="Node.js.深浅拷贝.js" />
+      <item itemvalue="Node.js.数组扁平化.js" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.async.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.ajax.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.array.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.test.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.OOP.js" />
+      <list>
+        <item itemvalue="Node.js.数组扁平化.js" />
+        <item itemvalue="Node.js.深浅拷贝.js" />
+        <item itemvalue="Node.js.async.js" />
+        <item itemvalue="Node.js.ajax.js" />
+        <item itemvalue="Node.js.array.js" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -241,16 +308,22 @@
       <workItem from="1526543634345" duration="8006000" />
       <workItem from="1526786374311" duration="13193000" />
       <workItem from="1526877459906" duration="11435000" />
+<<<<<<< HEAD
       <workItem from="1526950925141" duration="13082000" />
       <workItem from="1527592109084" duration="802000" />
       <workItem from="1527662553111" duration="9576000" />
       <workItem from="1527685253051" duration="1306000" />
       <workItem from="1527765792760" duration="6525000" />
       <workItem from="1528283570999" duration="26000" />
+=======
+      <workItem from="1526950925141" duration="12942000" />
+      <workItem from="1536133895975" duration="8600000" />
+>>>>>>> 002f6077cc4eba015f10207eccfa2d464306e9a9
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="135861000" />
   </component>
   <component name="ToolWindowManager">
@@ -274,6 +347,31 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+=======
+    <option name="totallyTimeSpent" value="126086000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="993" y="0" width="928" height="1160" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21348314" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50208336" side_tool="true" weight="0.32928178" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49791667" visible="true" weight="0.3894325" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.24947146" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.21037182" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.35812134" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+>>>>>>> 002f6077cc4eba015f10207eccfa2d464306e9a9
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,9 +382,8 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="4" />
     </breakpoint-manager>
-    <watches-manager />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -303,6 +400,7 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/ajax.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -314,13 +412,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+=======
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+>>>>>>> 002f6077cc4eba015f10207eccfa2d464306e9a9
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/es6/promise.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="768">
+<<<<<<< HEAD
           <caret line="32" column="73" lean-forward="false" selection-start-line="32" selection-start-column="73" selection-end-line="32" selection-end-column="73" />
+=======
+          <caret line="32" column="73" selection-start-line="32" selection-start-column="73" selection-end-line="32" selection-end-column="73" />
+>>>>>>> 002f6077cc4eba015f10207eccfa2d464306e9a9
         </state>
       </provider>
     </entry>
@@ -328,7 +436,14 @@
     <entry file="file://$PROJECT_DIR$/ajax.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
+<<<<<<< HEAD
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="15" selection-end-column="15" />
+=======
+          <caret line="3" selection-start-line="3" selection-end-line="15" selection-end-column="15" />
+          <folding>
+            <element signature="e#1178#2246#0" />
+          </folding>
+>>>>>>> 002f6077cc4eba015f10207eccfa2d464306e9a9
         </state>
       </provider>
     </entry>
@@ -343,6 +458,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="744">
           <caret line="31" column="2" lean-forward="true" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
+<<<<<<< HEAD
         </state>
       </provider>
     </entry>
@@ -354,13 +470,21 @@
             <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           </first_editor>
           <second_editor />
+=======
+>>>>>>> 002f6077cc4eba015f10207eccfa2d464306e9a9
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Desktop/近期计划.md" />
+    <entry file="file://$USER_HOME$/Desktop/从输入一个url到页面呈现到底发生了什么.md" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1272">
+<<<<<<< HEAD
           <caret line="53" column="9" lean-forward="false" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+=======
+          <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+>>>>>>> 002f6077cc4eba015f10207eccfa2d464306e9a9
         </state>
       </provider>
     </entry>
@@ -368,6 +492,7 @@
     <entry file="file://$PROJECT_DIR$/ajax.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="792">
+<<<<<<< HEAD
           <caret line="33" column="9" lean-forward="false" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
         </state>
       </provider>
@@ -382,21 +507,25 @@
         </state>
       </provider>
     </entry>
+=======
+          <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+          <folding>
+            <element signature="e#1178#2246#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/从输入一个url到页面呈现到底发生了什么.md" />
+>>>>>>> 002f6077cc4eba015f10207eccfa2d464306e9a9
     <entry file="file://$USER_HOME$/Desktop/近期计划.md" />
     <entry file="file://$PROJECT_DIR$/OOP.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2280">
-          <caret line="100" column="0" lean-forward="false" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+          <caret line="100" selection-start-line="100" selection-end-line="100" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="7" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/test.html" />
     <entry file="file://$PROJECT_DIR$/Array/array.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1656">
@@ -404,40 +533,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Array/常用方法总结.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="1176">
-            <caret line="367" column="55" lean-forward="false" selection-start-line="367" selection-start-column="55" selection-end-line="367" selection-end-column="55" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Array/常用方法总结.md" />
     <entry file="file://$PROJECT_DIR$/OOP.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2280">
-          <caret line="100" column="0" lean-forward="false" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+          <caret line="100" selection-start-line="100" selection-end-line="100" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1920">
-          <caret line="80" column="7" lean-forward="false" selection-start-line="80" selection-start-column="7" selection-end-line="80" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Array/常用方法总结.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="3696">
-            <caret line="154" column="0" lean-forward="false" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/test.html" />
+    <entry file="file://$PROJECT_DIR$/Array/常用方法总结.md" />
     <entry file="file://$PROJECT_DIR$/Array/array.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1560">
@@ -448,41 +553,22 @@
     <entry file="file://$PROJECT_DIR$/OOP.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2280">
-          <caret line="100" column="0" lean-forward="false" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+          <caret line="100" selection-start-line="100" selection-end-line="100" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="768">
-          <caret line="32" column="9" lean-forward="false" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/test.html" />
     <entry file="file://$PROJECT_DIR$/OOP.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="768">
-          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/test.html" />
     <entry file="file://$PROJECT_DIR$/OOP.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$USER_HOME$/Desktop/test.js" />
     <entry file="file://$PROJECT_DIR$/test.js" />
     <entry file="file://$PROJECT_DIR$/XX.js" />
+<<<<<<< HEAD
     <entry file="file://$USER_HOME$/Documents/Tencent Files/632498767/FileRecv/校园宣传大使平台需求分析.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -533,23 +619,44 @@
         </state>
       </provider>
     </entry>
+=======
+    <entry file="file://$USER_HOME$/Documents/Tencent Files/632498767/FileRecv/校园宣传大使平台需求分析.md" />
+    <entry file="file://$USER_HOME$/Documents/Tencent Files/632498767/FileRecv/需求分析/活动文件上传平台需求分析.md" />
+    <entry file="file://$USER_HOME$/Documents/Tencent Files/632498767/FileRecv/需求分析/校园宣传大使平台需求分析.md" />
+    <entry file="file://$USER_HOME$/Desktop/test.html" />
+    <entry file="file://$USER_HOME$/Desktop/从输入一个url到页面呈现到底发生了什么.md" />
+    <entry file="file://$PROJECT_DIR$/../notes/360星计划PPT地址.md" />
+>>>>>>> 002f6077cc4eba015f10207eccfa2d464306e9a9
     <entry file="file://$USER_HOME$/Desktop/近期计划.md" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
+<<<<<<< HEAD
           <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+=======
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+>>>>>>> 002f6077cc4eba015f10207eccfa2d464306e9a9
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ajax.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="15" selection-end-column="15" />
+=======
+        <state>
+          <caret line="3" selection-start-line="3" selection-end-line="15" selection-end-column="15" />
+          <folding>
+            <element signature="e#1178#2246#0" />
+          </folding>
+>>>>>>> 002f6077cc4eba015f10207eccfa2d464306e9a9
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/OOP.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
         </state>
@@ -559,12 +666,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="6" />
+=======
+        <state>
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+>>>>>>> 002f6077cc4eba015f10207eccfa2d464306e9a9
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../notes/书单" />
     <entry file="file://$PROJECT_DIR$/Array/array.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
+<<<<<<< HEAD
           <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
         </state>
       </provider>
@@ -599,11 +712,38 @@
         <state relative-caret-position="4152">
           <caret line="177" column="12" lean-forward="false" selection-start-line="177" selection-start-column="12" selection-end-line="177" selection-end-column="12" />
           <folding />
+=======
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Array/常用方法总结.md" />
+    <entry file="file://$PROJECT_DIR$/es6/async/await.js" />
+    <entry file="file://$PROJECT_DIR$/../admin-fe/src/util/mm.jsx" />
     <entry file="file://$PROJECT_DIR$/es6/promise.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5742">
+          <caret line="261" column="34" selection-start-line="261" selection-start-column="34" selection-end-line="261" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/es6/async.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2046">
+          <caret line="97" selection-start-line="97" selection-end-line="97" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+>>>>>>> 002f6077cc4eba015f10207eccfa2d464306e9a9
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Array/深浅拷贝.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/es6/generator.js">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="4541">
           <caret line="350" column="23" lean-forward="false" selection-start-line="350" selection-start-column="23" selection-end-line="350" selection-end-column="23" />
         </state>
@@ -628,17 +768,42 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1920">
           <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="85" selection-end-column="15" />
+=======
+        <state relative-caret-position="1166">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/深浅拷贝.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="70" column="39" selection-start-line="70" selection-start-column="39" selection-end-line="70" selection-end-column="39" />
+>>>>>>> 002f6077cc4eba015f10207eccfa2d464306e9a9
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/es6/对象扩展.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="523">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
+=======
+    <entry file="file://$PROJECT_DIR$/Array/数组去重.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="26" column="28" lean-forward="true" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Array/数组扁平化.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+>>>>>>> 002f6077cc4eba015f10207eccfa2d464306e9a9
         </state>
       </provider>
     </entry>
