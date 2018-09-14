@@ -14,32 +14,40 @@ console.log('begin');
 function AjaxInPromise() {
     return new Promise((resolve,reject) => {
         console.log('promise');
-        $.ajax({
-            url: 'https://www.easy-mock.com/mock/59c76db1e0dc663341b7173c/index/eaasyDetail.do',
-            type : 'get',
-            data : {
-                id : 1
-            },
-            success : function () {
-                resolve();
-                console.log('inAjax');
-            },
-            error : function () {
-                reject();
-                console.log('inAjax');
-            }
-        });
+        // $.ajax({
+        //     url: 'https://www.easy-mock.com/mock/59c76db1e0dc663341b7173c/index/eaasyDetail.do',
+        //     type : 'get',
+        //     data : {
+        //         id : 1
+        //     },
+        //     success : function () {
+        //         resolve();
+        //         console.log('inAjax');
+        //     },
+        //     error : function () {
+        //         reject();
+        //         console.log('inAjax');
+        //     }
+        // });
+        setTimeout(()=>{
+            resolve();
+            console.log('inAjax');
+        },2000)
         console.log('promise-end');
     })
 }
-AjaxInPromise().then(function () {
-    console.log('success');
-},function () {
-    console.log('error');
-});
+AjaxInPromise()
+    .then(function () {
+        console.log('success');
+    },function () {
+        console.log('error');
+    })
+    .then(()=>{
+        console.log('later');
+    });
 console.log('end');
-//begin promise promise-end end inAjax success
-//执行顺序 script -> begin -> microtask1(挂起) -> end -> 执行microtask1 -> ajax异步（macrotask挂起）->
+//begin promise promise-end end inAjax success later
+
 
 //promise 是异步的，但是有时候回调是同步的，见下面两个例子
 console.log('begin');
