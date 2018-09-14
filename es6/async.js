@@ -126,3 +126,53 @@ console.log('c');
 3.await命令只能用在async函数中，如果用在普通函数中就会报错
  */
 
+
+//ajax嵌套（ajax用jquery中的库来实现）
+//promise实现
+let ajaxPromise = function(ajaxParam){
+    return new Promise((resolve,reject) => {
+        return $.ajax({
+            url : ajaxParam.url,
+            type : ajaxParam.type,
+            data : ajaxParam.data,
+            success : (res) => {
+                resolve(res);
+            },
+            error : (err) => {
+                reject(err);
+            }
+        })
+    })
+};
+ajaxPromise({
+    url : 'https://www.easy-mock.com/mock/59c76db1e0dc663341b7173c/index/category/queryList.do',
+    type : 'get'
+})
+    .then(res => {
+        return ajaxPromise({
+            url : 'https://www.easy-mock.com/mock/59c76db1e0dc663341b7173c/index/eaasyDetail.do',
+            type : 'get',
+            data : {
+                id : res.data[0].categoryId
+            }
+        })
+    })
+    .then(res => console.log(res.data))
+    .catch(err => console.log(err));
+
+//async/await实现
+async function awaitAjax() {
+    let getData = await ajaxPromise({
+        url : 'https://www.easy-mock.com/mock/59c76db1e0dc663341b7173c/index/category/queryList.do',
+        type : 'get'
+    });
+    let getAriticle = await ajaxPromise({
+        url : 'https://www.easy-mock.com/mock/59c76db1e0dc663341b7173c/index/eaasyDetail.do',
+        type : 'get',
+        data : {
+            id : getData.data[1].categoryId
+        }
+    });
+    console.log(getAriticle.data);
+}
+awaitAjax();

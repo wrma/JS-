@@ -118,7 +118,8 @@ p2
 //then方法
 //then方法会返回一个新的promise实例（不再是之前的那个promise实例），所以可以采用链式写法
 //如果then方法中的回调函数返回的还是一个promise对象，那么后面的then就会等待该promise对象的状态发生变化才会被调用
-
+//如果then方法中返回的不是一个promise对象，那么then方法会自己返回一个新的promise实例
+//PromiseValue值为then方法中的返回值
 getJSON("/post/1.json").then(
     post => getJSON(post.commentURL)
 ).then(
@@ -318,6 +319,74 @@ Promise.try(f)
     如果为rejected，此时第一个被reject的实例的返回值会传递给p的回调函数
 6.可以通过Promise.resolve()/Promise.reject()来生成一个promise对象
  */
+
+
+//一些例子与思考
+//对于在then中嵌套的promise和链式调用的promise哪一个先运行的思考
+//还是执行栈和microtask运行顺序的问题...
+console.log('start');
+let testPromise = new Promise((resolve,reject) => {
+    console.log('promise1-begin')
+    resolve(1);
+    reject('error');
+});
+
+testPromise
+    .then((data) => {
+        console.log('promise1-end');
+
+        //主要观察data在哪里输出
+        new Promise((resolve,reject) => {
+            console.log('promise1-inner')
+            resolve(1);
+            reject('error');
+        }).then(data => console.log(data)); //嵌套的promise
+        console.log('promise2-begin');
+    })
+    //隐式返回的promise
+    .then((data) => {
+        console.log('promise2-end');
+    })
+console.log('end');
+//start
+// promise1-begin
+// end
+// promise1-end
+// promise1-inner
+// promise2-begin
+// 1
+// promise2-end
+
+//关于promise里面的同步代码的执行次数
+//实际上是在new Promise对象的时候就立即执行了，之后再调用同一个promise对象时不会重复执行
+let testPromise = new Promise((resolve,reject) => {
+    console.log('promise1-begin')
+    resolve(1);
+    reject('error');
+});
+testPromise
+    .then((data) => {
+        console.log('promise1-end');
+        console.log('promiseInner-begin');
+        return testPromise; //这里使用了testPromise，但是不会再执行promise1-begin,他已经在赋值时被执行过一次了
+    })
+    .then((data) => {
+        console.log('promiseInner-end');
+    });
+// promise1-begin
+// promise1-end
+// promiseInner-begin
+// promiseInner-end
+
+let test = new Promise((resolve,reject) => {
+    resolve();
+    reject();
+}).then(() => {
+    return {name : 'wrma'}
+    })
+    .then((data) => console.log(data));
+console.log(test);
+
 
 
 
