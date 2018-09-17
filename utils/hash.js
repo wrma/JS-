@@ -3,7 +3,7 @@
 
 // 获取url参数
 
-class Hash {
+class Search {
     constructor(){
         this.hash = []
         // let search = window.location.search.split('?');
@@ -29,6 +29,31 @@ class Hash {
 
     }
 }
-let hash = new Hash();
-let res = hash.getValue('a');
+let search = new Search();
+let res = search.getValue('a');
 console.log(res);
+
+let Hash = {
+    getValue(key) {
+        let reg = new RegExp("[\?|&]" + key + "=([^&]*)");
+        let regValue = window.location.search.match(reg);
+        if (regValue !== null && regValue.length > 0){
+            return regValue[1]
+        }
+    },
+    addValue(key,value) {
+        let hashValue = window.location.search;
+        let reg = new RegExp("[\?|&]" + key + "=([^&]*)");
+        if(reg.test(hashValue)) {
+            hashValue = hashValue.replace(reg, function (match,p1) {
+                let regArr = match.split('=');
+                regArr[1] = value;
+                return regArr.join('=')
+            })
+        }else {
+            let prefix = hashValue.length > 1 ? '&' : '#';
+            hashValue = `${hashValue.slice(1)}${prefix}${key}=${value}`;
+        }
+        window.location.search = hashValue
+    }
+}
