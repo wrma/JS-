@@ -51,7 +51,7 @@ let Hash = {
                 return regArr.join('=')
             })
         }else {
-            let prefix = hashValue.length > 1 ? '&' : '#';
+            let prefix = hashValue.length > 1 ? '&' : '?';
             hashValue = `${hashValue.slice(1)}${prefix}${key}=${value}`;
         }
         window.location.search = hashValue

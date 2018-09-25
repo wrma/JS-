@@ -29,11 +29,11 @@ console.log('arr',arr,'newArr',newArr);
 // 可以看到只有 newArr 有发生改变，这正是我们所需要的结果
 
 // 这个方法对对象来说也是适用的
-let obj = {a:1,b:2};
+let obj = {a:1,b:{c:2}};
 let newObj = JSON.parse(JSON.stringify(obj));
-newObj.b = 3;
+newObj.b.c = 3;
 console.log('obj',obj,'newObj',newObj);
-// obj { a: 1, b: 2 } newObj { a: 1, b: 3 }
+// obj { a: 1, b: { c : 2 } } newObj { a: 1, b: { c : 3 } }
 
 // 但是这个方法也有一个弊端，他没有办法拷贝函数（至于原因，就是JSON的一些原因了）
 var arr = [function(){

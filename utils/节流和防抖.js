@@ -21,7 +21,7 @@ function debounce(fn,delay) {
     let timer = null;
     return function (...args) {
         if (timer) {
-            timer = null; // 如果有定时器的话就重新再生成一个（不停更新定时器）
+            clearTimeout(timer); // 如果有定时器的话就重新再生成一个（不停更新定时器）
         }
         timer = setTimeout(() => {
             fn.apply(this,args);
