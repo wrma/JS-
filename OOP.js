@@ -71,7 +71,7 @@ var person2 = createPerson('daemon',23);
 person1.sayName(); //wrma
 person2.sayName(); //deamon
 
-//缺点：虽然创建了多个对象，但是无法知道他们的类型
+//缺点：虽然创建了多个对象，但是没办法使用instanceof来判断他们的类型
 
 
 //构造函数模式
@@ -132,7 +132,9 @@ console.log(person1.sayName()); //others
 console.log(person1.sayName === person2.sayName); //false
 
 //优点：不用为每个实例的方法都开辟一块内存空间，现在他们共享同一片内存空间了
-//缺点：对于包含引用类型值的属性，修改实例上的值会同时修改到原型对象上
+//缺点：
+// 1. 对于包含引用类型值的属性，修改实例上的值会同时修改到原型对象上
+// 2. 创建新对象时无法传递参数，不够灵活
 //eg：
 Person.prototype.like = ['apple','banana'];
 person1.like.push('pear');
@@ -176,7 +178,7 @@ Parent.prototype.getParent = function () {
     return this.parent;
 }
 Child.prototype = new Parent(); //这里让Child的原型对象指向Parent的实例
-//注意，往子类原型上添加属性或方法时一定要放在替换原型的语句之后
+//注意，往子类原型上添加属性或方法时一定要放在替换原型的语句之后，否则会在上面指向Parent实例后被Parent实例上的属性覆盖
 Child.prototype.getChild = function () {
     return this.child;
 }
@@ -243,7 +245,7 @@ function Child(name,age) {
 Parent.prototype.sayName = function () {
     console.log(this.name);
 }
-Child.prototype = new Parent();
+Child.prototype = new Parent(); //(多实例化了一次Parent，而且会把Parent实例上的一些属性附加到Child.prototype上面)
 Child.prototype.constructor = Child;
 
 Child.prototype.sayAge = function () {

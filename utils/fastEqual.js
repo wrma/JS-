@@ -5,7 +5,7 @@ function fastEqual(a,b) {
     // 判断基本类型值
     if (a === b) return true
     // 判断引用类型值
-    if (typeof a === 'object' && typeof a === 'object') {
+    if (typeof a === 'object' && typeof b === 'object') {
         if (a instanceof Array && b instanceof Array){
             if (a.length !== b.length) return false
             return a.every((item,index) => {

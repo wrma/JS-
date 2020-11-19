@@ -1,4 +1,9 @@
 
+/************* 用法 ************ */
+/** 这一篇主要介绍 promise 的用法，
+ * 是阅读阮一峰的 es6 教程做的笔记 */
+/****************************** */
+
 /*promise的缺点：
 1.无法取消:一旦新建就会立即执行，无法取消
 2.promise内部抛出的错误，不会反应到外部（外部的代码仍会执行而不会中断）（即promise会吃掉错误）
@@ -49,7 +54,7 @@ console.log('end');
 //begin promise promise-end end inAjax success later
 
 
-//promise 是异步的，但是有时候回调是同步的，见下面两个例子
+//promise 一定是异步的，但回调却有同步异步之分的，见下面两个例子
 console.log('begin');
 function foo(callback) {
     console.log('foo');
@@ -264,11 +269,12 @@ Promise.resolve()
 //2.
 let thenable = {
     then: function(resolve, reject) {
+        console.log(111);
         resolve(42);
     }
 };
 
-let p1 = Promise.resolve(thenable);
+let p1 = Promise.resolve(thenable); // 会立即打印出111
 p1.then(function(value) {
     console.log(value); // 42
 });
@@ -371,11 +377,13 @@ testPromise
         return testPromise; //这里使用了testPromise，但是不会再执行promise1-begin,他已经在赋值时被执行过一次了
     })
     .then((data) => {
+        console.log('data:', data);
         console.log('promiseInner-end');
     });
 // promise1-begin
 // promise1-end
 // promiseInner-begin
+// 1
 // promiseInner-end
 
 let test = new Promise((resolve,reject) => {
@@ -384,8 +392,8 @@ let test = new Promise((resolve,reject) => {
 }).then(() => {
     return {name : 'wrma'}
     })
-    .then((data) => console.log(data));
-console.log(test);
+    .then((data) => console.log('data', data));
+console.log('test', test);
 
 
 
